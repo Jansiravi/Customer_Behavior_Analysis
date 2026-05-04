@@ -43,7 +43,7 @@ group by  item_purchased
 order by discount_rate desc 
 limit 5;
 
-#Q5. Segment customers into New,Returning,and Loyal based on their total number of 
+#Q7. Segment customers into New,Returning,and Loyal based on their total number of 
      #previous purchase,and show the count of each segment.
 with customer_type as(
 select customer_id,previous_purchases,
